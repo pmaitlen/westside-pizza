@@ -1,0 +1,466 @@
+* { box-sizing: border-box; }
+
+.red                {  color: #660000; }
+.black              {  color: #000000; 
+                     text-shadow: 1px 1px 1px
+                     #660000; }    
+.mustard            {  color: #c68c53; text-shadow: 2px 2px 2px
+                     #000000; }
+.mustard1           {  color: #c68c53; }
+#email              {  color: #660000; }
+.gray               {  color: #828282; }
+figcaption           { font-style: italic; 
+                  margin-bottom: 1em; 
+                  margin-top: 1em;
+                  color: #c68c53; }
+.navbar             {background-color: #FFFFFF; 
+                 box-shadow: 5px 4px 4px 4px #828282;
+                 margin-bottom: 2em; }
+.navbar a { text-decoration: none; transition: color 3s ease-out;}
+.navbar a:link {color: #c68c53}
+.navbar a:visited {color: #660000}
+.navbar a:hover {color: #660000;  }
+
+#navhome  p { border-bottom: 1px solid #828282;  }
+#navhome a { text-decoration: none; transition: color 3s ease-out;  }
+#navhome a:link {color: #660000}
+#navhome a:visited {color: #c68c53}
+#navhome a:hover {color: #828282}
+
+.navbar-brand       { font-size: 27px;   }
+.chefhome    .navbar-brand  { margin-bottom: .5em;  }
+#westside        {  margin-left:13em;  }
+h4         {text-shadow: 1px 1px 1px #828282;  }
+h5       {
+        text-shadow: 1px 1px 1px #828282;
+        color: #000000;  }
+.choose     { font-size: 19px;  }
+.profile img  { border-radius: 50%;  }
+#youtube      { margin-left: 10em;  }
+.phonehome  {  margin-top: 1em;  }
+
+blockquote {
+    border-left:none;
+}
+
+.quote-badge{
+    background-color: rgba(0, 0, 0, 0.2);   
+}
+
+.quote-box{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 280px;
+  margin: 0;
+  padding: 22px 18px;
+  border-radius: 14px;
+  background-color: #828282;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(0,0,0,.45);
+  box-sizing: border-box;
+}
+
+.quote-box *{
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.quotation-mark{
+  margin-top: -10px;
+  font-weight: bold;
+  font-size: 100px;
+  color: white;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+.quote-text{
+  font-size: 19px;
+}
+/* Quote card wrapper (replaces Bootstrap .well for quotes) */
+#homeblock .quote-wrap{
+  background: #fff;
+  padding: 14px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  overflow: visible;
+}
+
+/* Quote card */
+#homeblock .quote-box{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 280px;
+  margin: 0;
+  padding: 22px 18px;
+  border-radius: 17px;
+  background-color: #828282;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 4px 4px 4px 4px #000000;
+  box-sizing: border-box;
+}
+
+#homeblock .quote-box{
+  box-shadow: 0 14px 26px rgba(0,0,0,.35);
+}
+
+html, body{
+  overflow-x: hidden;
+}
+.sidenav .well{
+  padding: 10px;
+  overflow: visible;
+}
+.col-sm-3{
+  overflow: visible;
+}
+
+
+form        { border: 1px solid #660000; 
+          padding-top: 2em;
+          padding-bottom: 1em; 
+          width: 20em;
+          margin-left: 3em;
+          border-radius: 10%;
+          box-shadow: 8px 8px 8px 8px #828282;  }
+h1            {   font-size: 54px;
+                padding-left: 1.85em;
+              }
+h2           { font-size: 40px;  }
+.pizzspecs  h3   {  color: #660000; 
+                 text-shadow: 2px 2px 2px #828282; 
+                font-size: 40px; }
+.specials         {   font-size: 20px; }
+.specials .red      { font-size: 20px;  }
+.mb-2             {   text-shadow: 2px 2px 2px #828282;
+                color: #c68c53;
+                font-size: 25px;
+                }
+.moment        {    color: #660000; 
+                 text-shadow: 2px 2px 2px #828282; 
+                font-size: 38px;
+                margin-top: 1em; 
+                }
+.neverfrozen     {  text-shadow: 2px 2px 2px #828282; }
+.mb-1               {   text-shadow: 2px 2px 2px #828282;
+                color: #c68c53;
+                font-size: 28px; }
+.moments            {  color: #000000; 
+                   text-shadow: none;
+                   font-size: 22px; }
+.pmdesignlogo img     { border-radius: 50%; 
+                  box-shadow: 10px 10px 10px 10px #445878; }
+.sheetpizza  img      {  margin-top: 2em; border-radius: 20%;}
+.deluxepizza img    { border-radius: 50%;  }
+.chickenpizza img    { border-radius: 50%;  }
+.logo2 img            { float: right;
+                  margin-right: -31em; margin-top: -12em;
+                  margin-bottom: 1em;}
+.meatloverspizza img    { border-radius: 50%; margin-top: 2.5em; }
+.boneinwings img    { border-radius: 50%;  }
+.nosaucewings img { margin-top: 0; }
+.bread img            { border-radius: 50%; 
+                  margin-top: 3em;
+                  margin-bottom: 3em; }
+.salami img        { border-radius: 50%;  }
+.subsandwich {
+  text-align: center;
+}
+
+.subsandwich img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5em auto;
+  border-radius: 30%;
+}
+.alfredo img        { border-radius: 50%;  }
+.pickles img        { border-radius: 50%; margin-top: 2em; }
+.chicksal2    img        { border-radius: 50%;  }
+.salad2 img        { border-radius: 50%;  }
+.address h5        {color: #660000;  }
+.subsand            {  font-size: 24px; color: #c68c53 }
+.subsand h5        {  font-size: 18px;  }
+.neverfrozen        {  font-size: 30px;  color: #000000;}
+.neverfrozen{
+  display: block;
+  width: 100%;
+  text-align: center !important;
+  max-width: 900px;
+  margin: 2em auto !important;
+}
+.neverfrozen i{
+  display: inline-block;
+}
+/* Make embedded map behave */
+.map-embed, iframe{
+  max-width: 100%;
+}
+
+.map-embed{
+  width: 100%;
+}
+
+.map-embed iframe{
+  width: 100%;
+  height: 420px;
+  border: 0;
+  display: block;
+}
+
+.bread            { margin-top: 1em;  margin-bottom: 1em; }
+.madetoorder        { color: #660000; font-size: 20px;  }
+.toppings           { font-size: 32px; 
+                  	color: #660000; }
+
+.cheesefries img     {  border-radius: 50%  }
+.chilifries img        { border-radius: 50%; margin-bottom: 2em; }
+.tortilla img        { border-radius: 50%;  }
+.salad1 img        { border-radius: 50%;  
+                  margin-top: 1em;
+                  margin-bottom: 1em; }
+.salad4 img        { border-radius: 50%; margin-top: 3em; }
+.mediterranean img    { border-radius: 50%; margin-bottom: 1em; }
+.chef2 img            { border-radius: 20%;                
+                  margin-top: 1em;
+                  margin-left: 1em;  }
+.pepsi            {  margin-top: 2em;  }
+.wingsfries        {  margin-top: 2em; margin-bottom: 1em;  }
+.phonehome    a        { display: inline; margin-top: 1em; }
+#email a { text-decoration: none}
+#email a:link { color: #c68c53 }
+#email a:visited { color: #c68c53 }
+#email a:hover { color: #660000  }
+footer #email        {  margin-left: auto; margin-right: auto; }
+.w3-jumbo            { padding-right: 2em;  }
+
+.thankyou{
+  max-width: 520px;
+  margin: 4em auto;
+  padding: 1.5em;
+  text-align: center;
+}
+.sites       {  margin-left: 2em; color: #660000;  }
+.site a     { text-decoration: none; transition: color 3s ease-out;}  
+
+ @media screen and (max-width: 768px) {
+ #westside     h1    {  display: inline; margin-left: -5.5em; 
+             font-size: 25px;
+             }
+.logo2 img            { float: right;
+                  margin-right: .75em; margin-top: -11.25em;
+                 width: 23%; height: 23%;
+                }        
+.pmdesignlogo img    { width: 350px; height: 350px;
+                margin-bottom: 1em;  }
+
+#youtube        {margin-left: 0;  
+             width: 100vw; 
+            }
+.thankyou    h1, h2     {margin-left: auto;
+                 margin-right: auto;
+                 margin-top: 5em;  }
+.phonehome        {  margin-left: 35%; margin-top: 1em; }
+#westside        { margin-left: 40%;  }
+.site          { text-decoration: none;
+                  transition: color 3s ease-out; }
+form             { margin-left: auto; margin-right: auto; 
+              margin-bottom: 3em; }  
+ }
+/* Right column: force consistent spacing + stop weird float creep */
+.col-sm-3.sidenav .right-rail{
+  padding-top: 26px;   /* adjust to taste */
+}
+
+.col-sm-3.sidenav .right-rail > *{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+ @media screen and (min-width: 1600px) {
+#westside     h1    {  display: inline; margin-left: 5.5em; 
+             }
+#map .container    { margin-left: 21em; }
+
+form             { margin-left: auto; margin-right: auto; }
+
+}
+
+
+/*/* Directions page: right rail layout + spacing */
+.right-rail{
+  text-align: center;
+  padding-top: 16px;
+}
+
+/* each block in the right rail */
+.right-rail > div{
+  max-width: 320px;
+  margin: 0 auto 16px auto;
+  box-sizing: border-box;
+}
+
+/* card wrapper (quotes, etc) */
+.right-card{
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 0 0 16px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* pizza guy / feature images */
+.right-rail img{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20%;
+}
+
+/* body text inside right rail */
+.right-rail div{
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+/* keep headings big */
+.right-rail .toppings,
+.right-rail .moment,
+.right-rail h3{
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+
+/* Responsive map that stays inside the column */
+.map-embed{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 40%;
+  margin: 0 0 18px 0;
+}
+
+.map-embed iframe{
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-card{
+  overflow: visible;
+}
+/* Contact form: wider + centered inside the right rail */
+.contact-card .contact-form{
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.contact-card .form-control,
+.contact-card button{
+  width: 100%;
+  box-sizing: border-box;
+}
+.right-rail form{
+  width: 100%;
+  margin-left: 0;
+}
+.right-rail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centers the cards */
+  gap: 32px;             /* visible spacing */
+  padding-top: 24px;
+}
+.right-rail > div{
+  width: 100%;           /* lets quote-wrap/blockquote fill the column */
+}
+.right-rail img{
+  display: block;
+  margin: 0 auto;    /* centers images */
+}
+.right-rail figcaption{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #c68c53;
+  font-style: italic;
+}
+	
+ ===== Portfolio cleanup pass (layout + header stability) ===== */
+
+img { max-width: 100%; height: auto; }
+
+.row.content { height: auto; min-height: 0; }
+
+.sidenav { height: auto; }
+
+table, th, td { border: 2px solid #660000; }
+
+footer { background-color: #eaecee; color: #660000; padding: 15px; }
+
+.navbar-westside {
+  background: #ffffff;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  box-shadow: 5px 4px 4px 4px #828282;
+}
+
+.navbar-westside .navbar-brand { padding: 10px; height: auto; }
+
+.header-row { display: flex; align-items: center; }
+.header-left, .header-center, .header-right { display: flex; align-items: center; }
+.header-left { justify-content: flex-start; }
+.header-center { flex-direction: column; justify-content: center; }
+.header-right { justify-content: flex-end; }
+
+.header-chef { max-height: 85px; }
+
+.header-logo { max-height: 110px; margin-left: auto; }
+
+.header-phone {
+  font-size: 26px;
+  color: #c68c53;
+  text-decoration: none;
+  margin-top: 6px;
+}
+
+.header-phone:hover { color: #660000; text-decoration: none; }
+
+.header-social a { color: #660000; text-decoration: none; }
+.header-social a:hover { color: #000000; }
+
+.site-title {
+  margin: 12px 0 10px;
+  color: #660000;
+  text-shadow: 1px 1px 1px #828282;
+  font-size: 54px;
+  line-height: 1.1;
+}
+
+/* Disable old header hacks if still present in markup */
+.logo2 img { margin: 0 !important; float: none !important; }
+
+/* Mobile header sizing */
+@media screen and (max-width: 767px) {
+  .header-chef { max-height: 65px; }
+  .header-logo { max-height: 70px; }
+  .site-title { font-size: 26px; margin: 8px 0; }
+  .header-phone { font-size: 18px; }
+  .header-row { align-items: flex-start; }
+}
+
+@media (max-width: 767px){
+  .quote-box{ max-width: 100%; }
+}
